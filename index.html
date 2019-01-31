@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Le jeu des 3 pions</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+	<div class="container">
+
+
+		<header>
+			<h1 class="animated tada">
+				<i class="fas fa-gamepad"></i><br>
+				Le jeu des 3 pions
+			</h1>
+			<p><a href="https://github.com/TheGalsenGeek/trois-pions">Voir sur Github</a> / <a href="https://thegalsengeek.com/le-jeu-des-3-pions-tic-tac-toe/">Lire l'article sur le blog</a></p>
+		</header>
+
+
+
+		<div class="conteneur-du-tableau">
+	
+			<div class="grille">
+			
+			<div class="carre" data-carre="1" data-joueur="">1</div>
+			<div class="carre" data-carre="2" data-joueur="">2</div>
+			<div class="carre" data-carre="3" data-joueur="">3</div>
+	
+			<br>
+	
+			<div class="carre" data-carre="4" data-joueur="">4</div>
+			<div class="carre" data-carre="5" data-joueur="">5</div>
+			<div class="carre" data-carre="6" data-joueur="">6</div>
+	
+			<br>
+	
+			<div class="carre" data-carre="7" data-joueur="">7</div>
+			<div class="carre" data-carre="8" data-joueur="">8</div>
+			<div class="carre" data-carre="9" data-joueur="">9</div>
+	
+	
+	
+			</div>
+	
+			<button class="boutton-reset"><i class="fas fa-redo"></i>&nbsp;&nbsp; Recommencer</button>
+	
+			
+		</div><!--
+
+		--><div class="conteneur-des-scores">
+	
+			<table class="tableau-de-scores scores">
+				<thead>
+					<tr>
+						<th>Parties</th>
+						<th>X</th>
+						<th>O</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+	
+			<table class="tableau-de-scores">
+				<tbody>
+					<tr>
+						<td>Total</td>
+						<td><span class="x-gagne">0</span></td>
+						<td><span class="o-gagne">0</span></td>
+					</tr>
+				</tbody>
+			</table>
+	
+	
+			
+			
+			
+		</div>
+
+
+	</div>
+	
+	<div class="container">
+		<img src="img/thegalsengeek_logo.png" class="animated bounceIn delay-1s" style="width:150px;display: block;margin: 0 auto">
+	</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/trois-pions.js"></script>
+</body>
+</html>

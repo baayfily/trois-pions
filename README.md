@@ -1,6 +1,6 @@
-# Tic Tac Toe
+# Le jeu des 3 pions
 
-A simple game of tic tac toe built with JavaScript and jQuery. 
+Un jeu simple de tic tac toe fait avec JavaScript et jQuery. 
 
-- [Play the game](http://ireade.github.io/tic-tac-toe-2/)
-- [Read the blog post](http://bitsofco.de/tic-tac-toe-revisited/)
+- [Jouer](http://thegalsengeek.github.io/trois-pions/)
+- [Lire l'article de blog](https://thegalsengeek.com/le-jeu-des-3-pions-tic-tac-toe/)
